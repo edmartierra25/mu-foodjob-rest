@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Kuya Z - Restaurant",
+    "name": "Jollibee",
     "imageUrl": "http://localhost:3001/images/restaurants/kuya-z.jpg",
     "address":
       "Ground Flr, Kroma Tower, Dela Rosa Street, Legaspi Village, Makati, Metro Manila",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Kuya Z - Restaurant",
+    "name": "Mang Inasal",
     "imageUrl": "http://localhost:3001/images/restaurants/kuya-z.jpg",
     "address":
       "Ground Flr, Kroma Tower, Dela Rosa Street, Legaspi Village, Makati, Metro Manila",
