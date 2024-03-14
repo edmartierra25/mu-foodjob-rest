@@ -8,7 +8,9 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users.js');
 var loginRouter = require('./routes/login.js');
 var viewOrderRouter = require('./routes/vieworder.js');
-var orderRouter = require('./routes/order.js');
+var orderRouter = require('./routes/orders.js');
+var restaurantsRouter = require('./routes/restaurants.js');
+var menusRouter = require('./routes/menus.js');
 var app = express();
 
 app.use(logger('dev'));
@@ -22,7 +24,8 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use('/viewOrder', viewOrderRouter);
-app.use('/order', orderRouter);
-var router = express.Router();
+app.use('/orders', orderRouter);
+app.use('/restaurants', restaurantsRouter);
+app.use('/menus', menusRouter);
 
 module.exports = app;
