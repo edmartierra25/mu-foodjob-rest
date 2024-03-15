@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const menus = require('../data/menus.json');
+const restaurants = require('../data/restaurants.json');
 
 router.get('/', (req, res) => {
   const { restaurant_id } = req.query;
@@ -14,8 +15,17 @@ router.get('/', (req, res) => {
 
 router.get('/:id', (req, res) => {
   const { id } = req.params;
-  const restaurant = menus.find(restaurant => restaurant.id === parseInt(id));
-  res.status(200).json(restaurant);
+
+  const newMenuData = menus.map(menu => {
+    const { address } = restaurants.find(restaurant => restaurant.id === menu.restaurant_id);
+    return {
+      ...menu,
+      address
+    }
+  });
+  console.log(newMenuData, "newMenuData", newMenuData.find(menu => menu.id === parseInt(id)));
+  const menu = newMenuData.find(menu => menu.id === parseInt(id));
+  res.status(200).json(menu);
 });
 
 module.exports = router;

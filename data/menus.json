@@ -3,66 +3,77 @@
     "id": 1,
     "name": "Fried chicken",
     "imageUrl": "http://localhost:3001/images/menus/classic.jpg",
-    "restaurant_id": 1
+    "restaurant_id": 1,
+    "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
   },
   {
     "id": 2,
     "name": "Nilagang manok",
     "imageUrl": "http://localhost:3001/images/menus/Pinoy-spag.jpg",
-    "restaurant_id": 1
+    "restaurant_id": 1,
+    "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
   },
   {
     "id": 3,
     "name": "Nilagang baboy",
     "imageUrl": "http://localhost:3001/images/menus/Papas-Panciteria.jpg",
-    "restaurant_id": 1
+    "restaurant_id": 1,
+    "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
   },
   {
     "id": 4,
     "name": "Fried chicken",
     "imageUrl": "http://localhost:3001/images/menus/Papas-Panciteria.jpg",
-    "restaurant_id": 2
+    "restaurant_id": 2,
+    "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
     },
     {
     "id": 5,
     "name": "Nilagang manok",
     "imageUrl": "http://localhost:3001/images/menus/clubhouse.jpg",
-    "restaurant_id": 2
+    "restaurant_id": 2,
+    "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
     },
     {
     "id": 6,
     "name": "Nilagang baboy",
     "imageUrl": "http://localhost:3001/images/menus/crispy-pata.jpg",
-    "restaurant_id": 2
+    "restaurant_id": 2,
+    "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
     },
     {
       "id": 7,
       "name": "Fried chicken",
       "imageUrl": "http://localhost:3001/images/menus/Papas-Panciteria.jpg",
-      "restaurant_id": 2
+      "restaurant_id": 2,
+      "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
       },
       {
       "id": 8,
       "name": "Nilagang manok",
       "imageUrl": "http://localhost:3001/images/menus/clubhouse.jpg",
-      "restaurant_id": 2
+      "restaurant_id": 2,
+      "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
       },
       {
       "id": 9,
       "name": "Nilagang baboy",
       "imageUrl": "http://localhost:3001/images/menus/crispy-pata.jpg",
-      "restaurant_id": 2
+      "restaurant_id": 2,
+      "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
       },
       {
         "id": 10,
         "name": "Nilagang manok",
         "imageUrl": "http://localhost:3001/images/menus/clubhouse.jpg",
-        "restaurant_id": 3
+        "restaurant_id": 3,
+        "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
         },
         {
         "id": 11,
         "name": "Nilagang baboy",
         "imageUrl": "http://localhost:3001/images/menus/crispy-pata.jpg",
-        "restaurant_id": 3
+        "restaurant_id": 3,
+        "description": "Consisting of bread (traditionally toasted), sliced cooked poultry, fried bacon, lettuce, tomato, and mayonaise."
         }
 ]
